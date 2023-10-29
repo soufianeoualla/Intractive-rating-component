@@ -1,0 +1,27 @@
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+button{
+    border: none;
+    outline: none;
+    color: hsl(216, 12%, 54%);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+}
+button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+button:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}

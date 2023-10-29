@@ -1,0 +1,27 @@
+h3{
+    margin: 10px 0;
+    color: white;
+    font-size: 28px;
+}
+.thankyou{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.ullistration{
+    width: 50%;
+    margin: 10px auto 1.5rem;
+
+}
+.selected-rating{
+    background-color: hsl(213, 19%, 18%);
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 30px;
+    padding: 5px 0 3px;
+   
+}
+.selected-rating p{
+    color: hsl(25, 97%, 53%,0.8);
+}
